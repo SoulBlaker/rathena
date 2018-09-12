@@ -115,7 +115,7 @@ function	script	refinenew	{
 	
 	mes "["+ .@npc_name$ +"]";
 	mes "Hmm " + .@article$ + " " + .@type$ + ", is that ok?";
-	mes "If you want to refine this armor,";
+	mes "If you want to refine this " + .@type$ + ",";
 	mes "I will need 1 ^003366" + getitemname(.@material) + "^000000 and " + callfunc("F_InsertComma",.@price) + " zeny.";
 	mes "Are you sure you want to continue?";
 	next;
